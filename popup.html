@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Field Suggester</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 10px; }
+      label, input { display: block; margin-bottom: 10px; }
+      .suggestion { display: flex; align-items: center; margin-bottom: 5px; }
+      .suggestion span { flex: 1; }
+      .suggestion button { margin-left: 10px; }
+    </style>
+  </head>
+  <body>
+    <h1>Input Field Suggester</h1>
+    <label for="newSuggestion">Add New Suggestion:</label>
+    <input type="text" id="newSuggestion">
+    <button id="add">Add</button>
+    <h2>Saved Suggestions:</h2>
+    <div id="suggestionsList"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
